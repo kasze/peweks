@@ -43,3 +43,4 @@ gem 'spree_usa_epay'
 gem 'spree_skrill'
 #gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise'
+
