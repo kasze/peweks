@@ -20,9 +20,9 @@ test:
   timeout: 5000
 
 production:
-  adapter: pg
+  adapter: postgresql
+  encoding: unicode
   host: ec2-54-243-183-240.compute-1.amazonaws.com
   database: d13pvegi2sflfo
   username: rpiimseqtcuphl
   password: hnxTOgF25-lM_YPx973JtN1G6D
-  pool: 5
