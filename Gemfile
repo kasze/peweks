@@ -53,3 +53,4 @@ gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise'
 #gem 'spree_pay_u_platnosci_pl_payment', :git => 'https://github.com/mdrozdziel/spree_pay_u_platnosci_pl_payment.git'
 #gem 'spree_dotpay_pl_payment', :git => 'git://github.com/espresse/spree_dotpay_pl_payment.git'
 
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
