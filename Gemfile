@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
 
@@ -49,4 +49,6 @@ gem 'spree_usa_epay'
 gem 'spree_skrill'
 #gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise'
+gem 'spree_pay_u_platnosci_pl_payment', :git => 'https://github.com/mdrozdziel/spree_pay_u_platnosci_pl_payment.git'
+gem 'spree_dotpay_pl_payment', :git => 'git://github.com/espresse/spree_dotpay_pl_payment.git'
 

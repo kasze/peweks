@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/espresse/spree_dotpay_pl_payment.git
+  revision: 4a3247a639dc2f138ca83cb9c1af59122d0b29b1
+  specs:
+    spree_dotpay_pl_payment (0.5.2)
+      spree_core (>= 0.30.0)
+
+GIT
   remote: http://github.com/spree/spree_auth_devise
   revision: eb0f30380dc83390b52939195bf92b4195f5c5a3
   specs:
@@ -7,8 +14,15 @@ GIT
       devise (~> 2.0.4)
       spree_core
 
+GIT
+  remote: https://github.com/mdrozdziel/spree_pay_u_platnosci_pl_payment.git
+  revision: dda8607669ae328a4339d5823cb6962a521e07c9
+  specs:
+    spree_pay_u_platnosci_pl_payment (0.1.0)
+      spree_core (>= 0.60.0)
+
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.2.8)
       actionpack (= 3.2.8)
@@ -251,6 +265,8 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree (= 1.2.0)
   spree_auth_devise!
+  spree_dotpay_pl_payment!
+  spree_pay_u_platnosci_pl_payment!
   spree_skrill
   spree_usa_epay
   therubyracer
