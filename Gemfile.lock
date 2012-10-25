@@ -7,6 +7,13 @@ GIT
       spree (~> 1.1)
 
 GIT
+  remote: git://github.com/zpieslak/spree_dotpay_pl_payment.git
+  revision: 24e1d58b17092a4f0ee4a1f0dc6ec90a5fcc7287
+  specs:
+    spree_dotpay_pl_payment (0.5.2)
+      spree_core (>= 1.1.0)
+
+GIT
   remote: http://github.com/spree/spree_auth_devise
   revision: eb0f30380dc83390b52939195bf92b4195f5c5a3
   specs:
@@ -260,6 +267,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree (= 1.2.0)
   spree_auth_devise!
+  spree_dotpay_pl_payment!
   spree_i18n!
   spree_skrill
   spree_usa_epay
