@@ -12,3 +12,11 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+
+
+Spree.config do |config|
+
+  # Sets default country to POLAND
+  config.default_country_id = 162
+
+end
